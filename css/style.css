@@ -141,7 +141,6 @@ footer {
 
 #mainPortfolio {
     height:900px; 
-    padding: 20px;
 }
 
 #aboutMe {
@@ -251,7 +250,7 @@ footer {
     }
 
     #mainPortfolio {
-        height:1400px;
+        height:1400px !important;
         margin-bottom:4rem;
     }
 
@@ -269,8 +268,11 @@ footer {
 }
 
 @media only screen and (max-width: 980px) {
-    body {
-
-        
+    #mainPortfolio {
+        height:1500px;
+    }
+    .main {
+        margin:0;
+        margin-left: 100px;
     }
 }
